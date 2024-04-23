@@ -1,0 +1,82 @@
+body {
+    min-height: 100vh;
+    background-color: white;
+}
+
+.FoodJP {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 40px
+}
+
+.JP {
+    color: #DA2535;
+}
+
+.menu-navegacao {
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 0;
+    width: 95%;
+}
+
+.menu-navegacao ul, li, a {
+    color: black;
+    text-decoration: none;
+    list-style-type: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.7rem;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    justify-content:flex-start;
+}
+
+.menu-navegacao a:hover {
+    background-color: #DA2535;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    position: center;
+    transition:ease-out 0.1s;
+}
+
+.enterButton {
+    background-color: white;
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px 50px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.enterButton:hover {
+    background-color: rgb(203, 203, 203);
+}
+
+.Oriental {
+    padding: 200px 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.cardButton {
+    background-color: #DA2535;
+    color: white;
+    font-size: 20px;
+    padding: 10px 80px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.cardButton:hover {
+    background-color:#ad242f;
+}
+
+.Tradicional {
+
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: end;
+}

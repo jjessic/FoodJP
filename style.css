@@ -5,7 +5,8 @@ body {
 
 .FoodJP {
     font-family:Arial, Helvetica, sans-serif;
-    font-size: 40px
+    font-size: 40px;
+    padding: 40px 50px;
 }
 
 .JP {
@@ -13,11 +14,12 @@ body {
 }
 
 .menu-navegacao {
-    height: 100px;
+    height: 130px;
+    width: 130px;
     background-color: rgb(255, 255, 255);
     position: fixed;
     top: 0;
-    width: 95%;
+    width: 90%;
 }
 
 .menu-navegacao ul, li, a {
@@ -29,7 +31,7 @@ body {
     margin: 0 auto;
     align-items: center;
     display: flex;
-    justify-content:flex-start;
+    justify-content:center;
 }
 
 .menu-navegacao a:hover {
@@ -55,7 +57,8 @@ body {
 }
 
 .Oriental {
-    padding: 200px 40px;
+    padding: 100px 90px;
+    margin-top: 200px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
@@ -74,9 +77,122 @@ body {
     background-color:#ad242f;
 }
 
-.Tradicional {
+.Sushi {
+    width: 300px;
+} 
 
+.container {
+    overflow: auto;
+}
+
+img {
+    float:inline-end;
+    margin-right: 150px;
+}
+
+.Tradicional {
     font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    justify-content: end;
+    text-align: start;
+    font-size: 20px;
+    margin: 150px;
+}
+
+.prato {
+    width: 500px;
+    margin-left: 90px;
+    padding-top: 90px;
+    float: inline-start;
+}
+
+.link {
+    text-decoration: underline;
+    color: #DA2535;
+    font-size: 20px;
+    margin-right: 72px;
+}
+
+.link:hover {
+    color:#ff6572
+}
+
+.popular {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.container2 { /* tentar arrumar o tamanho desse */
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    padding: 0px;
+}
+
+.comentarios {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-top: 220px;
+    margin-left: 90px;
+}
+
+.user1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    float: inline-start;
+    margin-top: 30px;
+    margin-left: 90px;
+    background-color: rgb(245, 245, 245);
+    padding: 0px 200px 0px 0px;
+    border-radius: 5%;
+}
+
+.profile1 {
+    margin-right: 170px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.daniColor {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+}
+
+.comment1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(122, 122, 122);
+    margin-left: 50px;
+}
+
+.star {
+    color: red;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.user2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    float: inline-start;
+    margin-top: 30px;
+    margin-left: 90px;
+    background-color: rgb(245, 245, 245);
+    padding: 0px 200px 0px 0px;
+    border-radius: 5%;
+}
+
+.profile2 {
+
+}
+
+.ricColor {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+}
+
+.comment2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(122, 122, 122);
+    margin-left: 50px;
 }

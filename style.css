@@ -1,3 +1,14 @@
+:root {
+    --red: #DA2535;
+    --black: #292929;
+    --gray: #616161;
+    --white-200: #F3F3F3;
+    --white: #FBFBFB;
+
+    --ff-i:  'Inter', sans-serif;
+    --ff-m:  'Montserrat', sans-serif;
+}
+
 body {
     min-height: 100vh;
     background-color: white;
@@ -129,70 +140,169 @@ img {
     padding: 0px;
 }
 
-.comentarios {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 40px;
-    margin-bottom: 20px;
-    margin-top: 220px;
-    margin-left: 90px;
+.section-feedback {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px 10%;
+    margin-bottom: 75px;
 }
 
-.user1 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
-    float: inline-start;
-    margin-top: 30px;
-    margin-left: 90px;
-    background-color: rgb(245, 245, 245);
-    padding: 0px 200px 0px 0px;
-    border-radius: 5%;
+.feedback-title {
+    font-family: var(--ff-m);
+    font-weight: 600;
+    color: var(--black);
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
 }
 
-.profile1 {
-    margin-right: 170px;
-    margin-bottom: 30px;
-    margin-top: 50px;
+.feedback-cards {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 28px;
 }
 
-.daniColor {
-    font-family: Arial, Helvetica, sans-serif;
-    margin-left: 50px;
+.feedback-card {
+    width: 28rem;
+    height: 300px;  
+    background-color: var(--white-200);
+    border-radius: 16px;
+    padding: 30px;
 }
 
-.comment1 {
-    font-family: Arial, Helvetica, sans-serif;
-    color:rgb(122, 122, 122);
-    margin-left: 50px;
+.feedback-card-profile {
+    width: 23%;
+    margin-bottom: 1.5rem;
 }
 
-.star {
-    color: red;
-    margin-left: 50px;
-    margin-bottom: 50px;
+.feedback-card-author {
+    font-family: var(--ff-m);
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: var(--black);
+
+    margin-bottom: 1rem;
 }
 
-.user2 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
-    float: inline-start;
-    margin-top: 30px;
-    margin-left: 90px;
-    background-color: rgb(245, 245, 245);
-    padding: 0px 200px 0px 0px;
-    border-radius: 5%;
+.feedback-card-desc {
+    font-family: var(--ff-i);
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--gray);
+    line-height: 160%;
+    width: 80%;
+    margin-bottom: 1rem;
 }
 
-.profile2 {
+
+.section-location {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px 10%;
+    margin-bottom: 75px;    
+}
+
+.location-title {
+    font-family: var(--ff-m);
+    font-weight: 600;
+    font-size: 2.5rem;
+    color: var(--black);
+    margin-bottom: 2.5rem;
+}   
+
+.location-img {
+    margin-bottom: 56px;
+}
+
+.location-form {
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+}   
+
+.location-input {
+    width: 100%;
+    height: 50px;
+    background: none;
+    border: 1px solid var(--black);
+    border-radius: 10px 0px 0px 10px;
+    padding: 0 10px 0 66px;
+
+    font-size: 1rem;
+    color: var(--black);
+    font-family: var(--ff-i);
+    font-weight: 400;
+}
+
+.location-icon {
+    position: absolute;
+    left: 20px;
+}
+
+.location-button {
+    width: 25%;
+    height: 50px;
+    background: var(--red);
+    border-radius: 0px 10px 10px 0px;
 
 }
 
-.ricColor {
-    font-family: Arial, Helvetica, sans-serif;
-    margin-left: 50px;
+.text-button {
+    font-family: var(--ff-i);
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--white);
 }
 
-.comment2 {
-    font-family: Arial, Helvetica, sans-serif;
-    color:rgb(122, 122, 122);
-    margin-left: 50px;
+.search-icon {
+    display: none;
+}
+
+/* Footer */
+
+.footer {
+    width: 100%;
+    display: flex;
+    padding: 25px 10%;
+    margin-bottom: 35px;  
+    column-gap: 51px;
+}
+
+.footer-title {
+    font-family: var(--ff-m);
+    font-weight: 700;
+    color: var(--black);
+    font-size: 2rem;
+}
+
+.nav-cards {
+    display: flex;
+    column-gap: 162px;
+    flex-wrap: wrap;
+}
+
+.nav-title {
+    font-family: var(--ff-m);
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: var(--black);
+
+    margin-bottom: 24px;
+}
+
+.nav-item {
+    font-family: var(--ff-i);
+    font-weight: 400;
+    color: var(--gray);
+
+
+    margin-bottom: 12px;
 }

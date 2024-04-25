@@ -63,35 +63,66 @@
         </div>
     </section>
 
-    
-    <section>
-        <h1 class="comentarios">Comentários</h1>
-        <div class="user1">
-            <img src="img profile 1.png" alt="Foto de perfil de uma mulher" class="profile1">
-            
-            <h2 class="daniColor">Daniele Almeida</h2>
-            <p class="comment1">
-                Ótimo serviço! Encantada com a <br>
-                qualidade dos produtos.
-            </p>
+    <section class="section-feedback">
+        <h1 class="feedback-title">Comentários</h1>
+    <div class="feedback-cards">
+        <div class="feedback-card">
+            <img src="img profile 1.png" alt="" class="feedback-card-profile">
+            <h4 class="feedback-card-author">Daniele Almeida</h4>
+            <p class="feedback-card-desc">Ótimo serviço! Encantada com a qualidade dos pratos.</p>
             <p class="star">&#9733 &#9733 &#9733 &#9733 &#9733</p>
         </div>
-    </section>
 
-    <section>
-
-        <div class="user2">
-            <img src="" alt="" class="profile2">
-
-            <h2 class="ricColor">Ricardo França</h2>
-            <p class="comment2">
-                Não é apenas uma comida excelente, o <br>
-                serviço torna a experiência especial.
-            </p>
+        <div class="feedback-card">
+            <img src="Group 11.png" alt="" class="feedback-card-profile">
+            <h4 class="feedback-card-author">Ricardo França</h4>
+            <p class="feedback-card-desc">Não é apenas a comida excelente, o serviço torna a experiência especial.</p>
             <p class="star">&#9733 &#9733 &#9733 &#9733 &#9733</p>
-
         </div>
+    </div>
     </section>
+
+    <section class="section-location">
+        <h1 class="location-title">Localização</h1>
+        <img src="mapa rio.png" alt="" class="location-img">
+
+        <form class="location-form" id="form">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--uil location-icon" width="30" height="30" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24" data-icon="uil:location-point" data-width="30" style="color: rgb(218, 37, 53);"><path fill="currentColor" d="M18 4.48a8.45 8.45 0 0 0-12 12l5.27 5.28a1 1 0 0 0 1.42 0L18 16.43a8.45 8.45 0 0 0 0-11.95M16.57 15L12 19.59L7.43 15a6.46 6.46 0 1 1 9.14 0M9 7.41a4.32 4.32 0 0 0 0 6.1a4.31 4.31 0 0 0 7.36-3a4.24 4.24 0 0 0-1.26-3.05A4.3 4.3 0 0 0 9 7.41m4.69 4.68a2.33 2.33 0 1 1 .67-1.63a2.33 2.33 0 0 1-.72 1.63Z"></path></svg>
+            <input type="search" class="location-input" placeholder="Localização para entrega">
+            <button class="location-button" form="form"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--uil search-icon" width="30" height="30" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24" data-icon="uil:search" data-width="30" style="color: white;"><path fill="currentColor" d="M21.71 20.29L18 16.61A9 9 0 1 0 16.61 18l3.68 3.68a1 1 0 0 0 1.42 0a1 1 0 0 0 0-1.39M11 18a7 7 0 1 1 7-7a7 7 0 0 1-7 7"></path></svg> <span class="text-button">Buscar</span></button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <h1 class="footer-title">Food<span style="color: #DA2535;">JP</span></h1>
+
+        <nav class="nav-cards">
+            <ul class="nav-card">
+                <h2 class="nav-title" id="about">
+                    Contato
+                </h2>
+                <li class="nav-item">+55 21 9999-9999</li>
+                <li class="nav-item">email@gmail.com</li>
+            </ul>
+
+            <ul class="nav-card">
+                <h2 class="nav-title">
+                    Sobre nós
+                </h2>
+                <li class="nav-item">Menu</li>
+                <li class="nav-item">Valores</li>
+                <li class="nav-item">Valores</li>
+            </ul>           
+
+            <ul class="nav-card">
+                <h2 class="nav-title">
+                    Serviços
+                </h2>
+                <li class="nav-item">Entrega</li>
+                <li class="nav-item">Retirada</li>
+            </ul>    
+        </nav>
+    </footer>
 </main>
 </body>
 </html>
